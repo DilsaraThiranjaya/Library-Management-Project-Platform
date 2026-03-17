@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lk.ijse.eca</groupId>
-    <artifactId>Library-Management-Project-Platform</artifactId>
+    <artifactId>Project-Platform</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
 
