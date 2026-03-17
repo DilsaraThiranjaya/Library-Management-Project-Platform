@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'config-server',
       script: 'java',
-      args: '-jar Library-Management-Project-Platform-Config-Server/target/Config-Server-1.0.0.jar',
+      args: '-jar config-server/target/Config-Server-1.0.0.jar',
       instances: 1,
       autorestart: true,
       max_memory_restart: '1G',
@@ -14,7 +14,7 @@ module.exports = {
     {
       name: 'service-registry',
       script: 'java',
-      args: '-jar Library-Management-Project-Platform-Service-Registry/target/Service-Registry-1.0.0.jar',
+      args: '-jar service-registry/target/Service-Registry-1.0.0.jar',
       instances: 1,
       autorestart: true,
       max_memory_restart: '1G'
@@ -22,7 +22,7 @@ module.exports = {
     {
       name: 'api-gateway',
       script: 'java',
-      args: '-jar Library-Management-Project-Platform-Api-Gateway/target/Api-Gateway-1.0.0.jar',
+      args: '-jar api-gateway/target/Api-Gateway-1.0.0.jar',
       instances: 1,
       autorestart: true,
       max_memory_restart: '1G'
