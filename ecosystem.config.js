@@ -2,25 +2,21 @@ module.exports = {
   apps: [
     {
       name: "config-server",
-      script: "./config-server/target/Config-Server-1.0.0.jar",
+      script: "/home/g_a_dilsara_thiranjaya/Library-Management-Project-Platform/config-server/target/Config-Server-1.0.0.jar",
       interpreter: "java",
-      args: "-jar",
-      log_file: "./logs/config-server.log",
-      
+      args: "-jar"
     },
     {
       name: "service-registry",
-      script: "./service-registry/target/Service-Registry-1.0.0.jar",
+      script: "/home/g_a_dilsara_thiranjaya/Library-Management-Project-Platform/service-registry/target/Service-Registry-1.0.0.jar",
       interpreter: "java",
-      args: "-jar",
-      log_file: "./logs/service-registry.log",
+      args: "-jar"
     },
     {
       name: "api-gateway",
-      script: "./api-gateway/target/Api-Gateway-1.0.0.jar",
+      script: "/home/g_a_dilsara_thiranjaya/Library-Management-Project-Platform/api-gateway/target/Api-Gateway-1.0.0.jar",
       interpreter: "java",
-      args: "-jar",
-      log_file: "./logs/api-gateway.log",
+      args: "-jar"
     }
   ]
 }
