@@ -6,6 +6,10 @@
 - **Slack Handle**: Dilsara Thiranjaya
 - **GCP Project ID**: dilsara
 
+### Public Access Points
+
+- **Eureka Dashboard**: [http://34.96.243.98:8761](http://34.96.243.98:8761)
+
 ---
 
 ## Project Description
